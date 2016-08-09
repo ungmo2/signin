@@ -1,17 +1,3 @@
-signin v1
-input tag value check
-ID / PW 확인 (if((id === 'xxx') && (pw === 'yyy'))
-
-signin v2
-using jquery validator
-using MySQL
-
-signin v3
-using passport
-
-
-
-
 
 # 1. signin
 
