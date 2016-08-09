@@ -24,6 +24,8 @@ $ bower --version
 1.7.9
 ```
 
+windows사용자는 사전에 [Git](https://git-scm.com/downloads)이 필요하다.
+
 ## 1.2 directory structure
 
 ```
