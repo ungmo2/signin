@@ -1,2 +1,9 @@
-node_modules/**/*
-public/libs/**/*
+# npm
+node_modules/
+npm-debug.log
+
+# bower
+public/libs/
+
+# Mac OS X
+.DS_Store
