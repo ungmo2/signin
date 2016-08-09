@@ -7,3 +7,6 @@ public/libs/
 
 # Mac OS X
 .DS_Store
+
+# Webstorm
+.idea/

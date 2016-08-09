@@ -71,7 +71,7 @@ app.get('/', function(req, res){
 app.get('/session', function (req, res) {
 
   if(req.session && req.session.user){
-    console.log("req.session.id: ", req.session.id)
+    console.log("req.session.id: ", req.session.id);
   } else {
     req.session.user = "ungmo2";
     console.log("Hello! first connect");
@@ -97,7 +97,7 @@ app.post('/signin', function (req, res) {
   var password = req.body.password;
   var remember = req.body.remember;
 
-  console.log("[/signin]")
+  console.log("[/signin]");
   console.log("  id: "+id);
   console.log("  password: "+password);
   console.log("  remember: "+remember);
@@ -123,7 +123,7 @@ app.post('/signin', function (req, res) {
 
       // Set userID & Remember me in Session
       if(req.session && req.session.user){
-        console.log("req.session.user: ", req.session.user)
+        console.log("req.session.user: ", req.session.user);
       } else {
         req.session.user = id;
         console.log("  Hello! first connect. Session created!");
