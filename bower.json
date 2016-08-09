@@ -1,0 +1,25 @@
+{
+  "name": "sigin",
+  "authors": [
+    "leeungmo <ungmo2@gmail.com>"
+  ],
+  "description": "signin example",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "jquery-validation": "1.14.0",
+    "bootstrap": "3.3.6",
+    "font-awesome": "fontawesome#~4.6.3"
+  }
+}
