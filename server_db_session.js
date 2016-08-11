@@ -90,6 +90,12 @@ app.get('/sessionDestroy', function (req, res) {
   res.send({redirect: '/'});
 });
 
+app.get('/logout', function (req, res) {
+  req.session.destroy();
+  console.log("Session Destroyed!");
+  res.redirect('/');
+});
+
 // Authorize user
 app.post('/signin', function (req, res) {
 
